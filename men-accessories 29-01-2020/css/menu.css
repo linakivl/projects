@@ -1,0 +1,115 @@
+
+.header-container-col-nav{
+    display:flex;
+    align-items: center;
+    width:33%;
+}
+.header-container-col-nav nav{
+    margin-left: .8rem;
+}
+.header-container-col-nav ul{
+    list-style:none;
+}
+.header-container-col-nav li{
+    padding: 0 .5rem;
+    display: inline;
+}
+.header-container-col-nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.1rem;
+}
+.fas-container {
+    color: rgb(255, 255, 255); 
+    font-size: 2rem;
+}
+/*bar overlay*/
+.bar-ul{
+    color:white;
+    font-size: 2rem;
+    cursor:pointer;
+}
+
+/*DROPDOWN MENU*/
+.collection{
+    position: absolute;
+}
+.collection:hover .dropdownmenu{
+    display:block;
+}
+.dropdownmenu{
+    position: relative;
+    top:.5rem;
+    left:0;
+    border: solid 1px rgb(226, 226, 226);
+    height: 15rem;
+    width: 70%;
+    display: none;
+}
+.dropdownmenu a{
+    display:block;
+    line-height: 2.9rem;
+    color: rgb(226, 226, 226);
+    padding-left: .5rem;
+    font-size: 1.9rem;
+}
+.dropdownmenu a:hover{
+    color: rgb(168, 168, 168);
+}
+
+/*hide menu*/
+
+  #myNav {
+    display: none;
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(253, 253, 253);
+    overflow-x: hidden;
+    }
+
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+   
+  }
+  
+  .overlay a:hover{
+    color: #000000;
+  }
+  .overlay-social{
+      display:flex;
+      justify-content: center;
+      margin-top: 1rem;
+  }
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+   .overlay-s.social-links{
+    display: inline-block !important;
+     padding: 0 0.2rem;
+   }
+   .fa-facebook, .fa-instagram, .fa-twitter{
+    font-size: 2rem;
+    color: rgb(97, 97, 97);
+   }
+   .fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover{
+    color: #000000;
+   }

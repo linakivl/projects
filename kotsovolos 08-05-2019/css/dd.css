@@ -1,0 +1,301 @@
+h2{
+	margin:0;
+}
+#button_hot{
+	border:solid 1px;
+	float:right;
+	margin-right:3px;
+}
+h2 #button_hot{
+	margin:25px 10px;
+	padding:10px;
+	background-color: black;
+	color:white;
+}
+#button_popular{
+	float:left;
+}
+h2 #button_popular{
+	margin:25px 10px;
+	padding:10px;
+	color:black;
+	letter-spacing: 0.5px;
+}
+.sales_image,.sales_text,.k_blog{
+	margin:0;
+	padding:0;
+}
+.sales_image p{
+	color:grey;
+	font-size:15px;
+	margin: 5px 0 0 0;
+}
+h3{
+	margin:0;	
+}
+h3 a{
+	padding: 0 0 0 2px;
+	color:black;
+	font-size:18px;
+}
+
+.price_text{
+	margin-top:30px;
+}
+.price{
+	margin:0;
+	padding:0;
+	display:inline-block;
+	font-size:20px;
+	color:red;
+}
+em{
+	margin-left:6px;
+}
+.old_price{
+	text-decoration: line-through red;
+	margin:5px; 
+}
+
+.buy_button{
+	position:relative;
+}
+.buy{
+	padding:6px 145px 6px 10px;
+
+	color:rgb(51, 50, 50);
+	font-weight: bold;
+	border:solid 2px rgba(255, 195, 106, 0.801);
+	background-color:rgba(255, 172, 49, 0.801);
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.fa-cart-arrow-down{
+	position:absolute;
+	color:rgb(0, 0, 0);
+	margin-left:115px;
+	padding-top:2px;
+	
+}
+.sales_text .codes{
+	margin-top:26px;
+}
+.kbusiness{
+	text-align:center;
+	margin:20px 0 20px 0;
+}
+h2 #kbusiness_text {
+	margin:10px 10px;
+	padding:20px;
+	color:rgb(236, 0, 0);
+	letter-spacing: 0.5px;	
+	font-size:38px;
+	font-weight: bolder;
+	border:solid 1px rgb(253, 253, 253);
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.kimage img{
+	width:100%;
+}
+.all_icons,.kimage{
+	background-color: rgb(240, 240, 243);
+}
+.icons{
+	margin-left:10px;
+	background-color: rgb(240, 240, 243);
+}
+.fa-laptop,.fa-print,.fa-calculator,.fa-play-circle,.fa-blender,.fa-temperature-low,.fa-broom,.fa-wind,.fa-hotel{
+	font-size:40px;
+	padding-left:20px;
+	color:black;
+	
+}
+.icons_text{
+	font-size:11px;
+	color:black;
+	text-align:center;
+	display: inline-block;
+	margin-top:10px;
+}
+.icons :hover{
+	color:red;
+}
+
+h2 #the_most_people,#more_text{
+	margin:10px 10px;
+	padding:10px;
+	color:black;
+	letter-spacing: 0.5px;	
+	font-size:27px;
+	font-weight: bold;
+}
+.the_most_people_header,.k_blog,.more{
+	text-align:center;
+	margin:20px 0 20px 0;
+}
+.k_blog img{
+	width:150px;
+	margin-bottom:25px;
+}
+.blog_image img{
+	width:100%;
+}
+.blog_links{
+	display:inline-block;
+}
+h4{
+	margin:17px 0 0 0;
+	line-height:1.8;
+	color:black;
+}
+.sub_title{
+	color:rgb(17, 17, 17);
+}
+.episodes img{
+	width:995px;
+	margin-top:90px;
+	margin-bottom:30px;
+}
+.article,.extra_text{
+	font-size:13px;
+	color:rgb(17, 17, 17);
+	padding:8px;
+}
+.article a{
+	color:rgb(17, 17, 17);
+	display:inline-block;
+	margin-bottom:20px;
+}
+.second_article{
+	margin:-1px;
+}
+.more_images{
+	text-align:center;
+	margin-left: 3px;
+}
+.extra_header{
+	padding-left:10px;
+}
+.correct img{
+	width: 97.3%;
+}
+.first{
+	margin-top:24px
+}
+.extra_image{
+	text-align:center;
+}
+.extra_image img{
+	margin-top:43px;
+}
+.last_ex_img img{
+	width:190px;
+}
+.bonus{
+	margin-bottom:25px;
+	margin-top:18px;
+	display:inline-block;
+}
+.info{
+	background-color: rgb(240, 240, 243);
+	margin-top:15px;
+}
+.newsletter{
+	border:solid 0.5px rgb(146, 0, 0);
+	background-color:red;
+	background-image: linear-gradient(to bottom right, rgb(104, 11, 11), rgb(253, 10, 10));
+	
+}
+.nletter{
+	background-color:red;	
+	height:70px;	
+	background-image: linear-gradient(to bottom right, rgb(104, 11, 11), rgb(253, 10, 10));
+}
+.nletter img{
+	width:100px;
+}
+.nletter p{
+	display:inline-block;
+	color:white;
+	font-size:25px;
+	font-weight: bolder;
+	padding:0;
+	margin:0;
+	position: relative;
+	top: -15px;
+	text-shadow: 2px 2px 4px #000000;
+	letter-spacing:0.5;
+}
+.nletter_box{
+	top: -50px;
+	left:320px;
+	width: 37%;
+	height:37px;
+	float:left;
+	position: relative;
+	padding-left:5px;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nletter_sign{
+	position: relative;
+	top: -50px;
+	left:210px;
+	width:92px;
+	height:25px;
+	background-color:black;
+	color:white;
+	cursor:pointer;
+}
+.nletter_sign:hover{
+	background-color: grey;
+}
+.fa-facebook-square,.fa-instagram,.fa-twitter-square,.fa-youtube{
+	position: relative;
+	top: -30px;
+	left:350px;
+	font-size:30px;
+	color:rgb(255, 255, 255);
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.fa-envelope{
+	font-size:30px;
+}
+.footer_list{
+	width:156px;
+	margin:10px 10px 0 5px;
+	background-color: rgb(240, 240, 243);
+}
+.footer_list ul li strong a{
+	color:rgb(185, 0, 0);
+	font-size:14px;
+	margin-bottom:10px;
+}
+.footer_list ul li  a{
+	color:black;
+	font-size:11px;
+}
+.companies{
+	*width: 289px;
+	margin:10px 0 0 0px;
+	background-color: rgb(240, 240, 243);
+}
+#norton img{
+	width:145px;	
+}
+#mcfree  img{
+	width:130px;	
+}
+#mastercard img{
+	width:130px;	
+}
+#verify img{
+	width:120px;
+	margin-left:15px;	
+}
+#diners img{
+	width:85px;	
+	margin-left:40px;
+}
+.companies a{
+	float:left;
+	width: 30% !important;
+}

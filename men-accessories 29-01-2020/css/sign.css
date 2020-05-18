@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+@media screen and (max-width: 700px){
+    #forget-pass{
+        font-size: 1.2rem;
+    }
+    .col-form-acount{
+        flex-basis: 50%;
+    }
+    .col-form-acount-buttons-box{
+        font-size: 1.8rem;
+    }
+}
+@media screen and (min-width: 701px){
+    #forget-pass{
+        font-size: 1.5rem;
+    }
+    .col-form-acount-buttons-box{
+        font-size: 2.5rem;
+    }
+    .col-form-acount{
+        flex-basis: 30%;
+    }
+}
+
+
+.form-acount{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left: 0;
+    overflow-y: hidden;
+}
+.form-acount-wraper{
+    display:flex;
+    position: relative;
+    left: 25%;
+    top: 25%;
+    width: 50%;
+    align-items: center;
+    overflow: hidden;
+    opacity : 1;
+}
+.form-acount-row{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.col-form-acount{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    flex-basis: 100%;
+    padding: 2rem;
+}
+.col-form-acount-buttons{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+.col-form-acount-buttons-line{
+    width: 7%;
+}
+.col-form-acount-buttons-box{
+    text-decoration: none;
+    color: rgb(119, 119, 119);
+   
+}
+.col-form-acount input{
+    display:block;
+}
+.input-text{
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    border:none;
+    border-bottom: 1px solid #ccc;
+}
+input[type="submit"]{
+    color: #fff;
+    background-color: #000;
+    min-width: 100%;  
+    padding: 1rem;
+    border:none;
+}
+input[type="checkbox"]{
+    display:inline-block;
+    margin-top: .8rem;
+    margin-bottom: 2rem;
+}
+#checkbox-text{
+    font-size: 1.5rem;
+    color:  rgb(180, 180, 180);
+    
+}
+ #forget-pass{
+    align-self: center;
+    text-decoration: none;  
+    margin-top: 1.5rem;
+    border-bottom: solid 1px #000;
+    color: #000;
+}
+
+/*change button color mouseenter*/
+.color-buttons{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.problem-msg{
+    font-size: 1.5rem;
+    text-align: center;
+    color: red;
+    margin: 0;
+    padding: 0;
+}

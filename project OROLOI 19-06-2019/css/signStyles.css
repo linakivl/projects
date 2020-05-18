@@ -1,0 +1,499 @@
+.threeBoxesBelowNav,.homeTitle,.welcomeHeader,.waysofSignIn{
+    display:flex;
+    justify-content: center;
+}
+.threeBoxesBelowNavContainer{
+    display:flex;
+    width:80%;
+    justify-content: space-between;
+}
+.threeBoxesText{
+    width:30%;  
+}
+.threeBoxesText p{
+    text-align: center;
+    padding:9px 0 9px 0;
+    margin:0;
+    font-size:14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(235, 235, 235);
+}
+/*HOME TITLE*/
+.homeTitleContainer{
+    display:flex;
+    width:80%;
+    margin-top:20px;
+}
+.homeIcon{
+    display:flex;
+    height:20px;
+}
+.homeIcon img{
+    flex:1;
+}
+.homeTitleText{
+    display:flex;
+    align-items: center;
+    padding-left:13px;
+}
+.homeTitleText h4{
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+}
+.homeTitleText strong{
+    color:rgb(49, 36, 102);
+}
+/*welcomeHeader*/
+.welcomeHeaderContainer{
+    display:flex;
+    width: 80%;
+    justify-content: center;
+    border-bottom: dotted 2px rgb(235, 235, 235);
+}
+.welcomeBox{
+    display:flex;
+}
+.welcomeBox h2{
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(55, 47, 168);
+    margin: 4px 0;
+    font-size: 22px;
+}
+/*box of social*/
+.waysofSignInContainer{
+    display:flex;
+    width:80%;
+    flex-wrap:wrap;
+}
+.paragraphSocial{
+    flex:1;
+    font-weight: lighter;
+    color:rgb(44, 44, 44)
+}
+.paragraphSocial p{
+    text-align: center;
+}
+.socialBoxes{
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+.socialContainer{
+    display:flex;
+    width:50%;
+    margin-top:20px;
+    justify-content: space-evenly;
+    
+}
+.facebookbox{
+    display:flex;   
+    padding-right:10px;
+    cursor: pointer;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.googlebox{
+    display:flex;
+    padding-right:10px;
+    cursor: pointer;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.googleimg,.fbimg{
+    padding-top:3px;
+    padding-left:2px;
+}
+.socialtext,.socialtexttwo{
+    padding-top:8px;
+    padding-left:3px;
+    font-size:13px;
+}
+.socialtexttwo{
+    padding-right:20px;
+}
+/**/
+.textbelowsocial{
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+.textbelowsocialContainer{
+    display:flex;
+    width:50%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.textbelowsocialBorder{
+    display:flex;
+    width:100%;
+    justify-content: center;
+    border-bottom: solid 2px rgb(226, 226, 226);;
+}
+.textbelowsocialBorder span{
+    position: relative;
+    padding:10px 40px;
+    top:20px;
+    background-color: #fff;
+    color:rgb(44, 44, 44)
+    font-weight: lighter;
+    font-size:14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.textbelowsocialBordertwo{
+    display:flex;
+    width:100%;
+    justify-content: center;
+    margin-top:20px;
+}
+.textbelowsocialBordertwo span{
+    font-weight: lighter;
+    color:rgb(44, 44, 44);
+    font-size:14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*SIGNINFORMS*/
+.signInForms{
+    display:flex;
+    justify-content: center;
+}
+.signInformsContainer{
+    display:flex;
+    justify-content: center;
+    margin-top:30px;
+}
+.signInBox{
+    display:flex;
+    width:25%;
+    direction: column;
+}
+.twosignInforms{
+    display:flex;
+    flex:2;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.signInBoxemail{
+    display: flex;
+    width:70%;
+}
+.signInBoxemailpass{
+    display: flex;
+    width:69%;
+}
+.signInBoxemailpass{
+    font-size: 11px;
+}
+.signInBoxemail input{
+    display:flex;
+    margin-bottom:5px;
+    padding:5px;
+    width:100%;
+    font-size:14px;
+    font-style: italic;
+}
+.signInBoxemailtwo{
+    display:flex;
+    padding-top:20px;
+    padding-left:10px; 
+}
+.signInBoxemailtwo button{
+    background: linear-gradient(180deg, rgba(126,126,162,1) 0%, rgba(48,48,93,1) 65%, rgba(30,30,80,1) 96%);
+    color: #fff;
+    font-size:10px;
+    padding:9px;
+}
+.signInBoxemail span{
+    font-size:11px;
+}
+/*BECOME A MEMBER SECTION*/
+.becomeaMemberSection{
+    display:flex;
+    justify-content: center;
+}
+.becomeaMemberBox{
+    display:flex;
+    margin-top:30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.becomeaMemberLine{
+    display: flex;
+    width:50%; 
+    border-bottom:solid 2px rgb(226, 226, 226);
+}
+.becomeaMemberText{
+   display:flex;
+   padding-top:20px;
+   justify-content: center;
+}
+.becomeaMemberText span{
+    font-size:15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.buttonsignSection,.lastlinesignSection{
+    display:flex;
+    justify-content:center;
+}
+.buttonsignContainer{
+    display:flex;
+    width:80%;
+    justify-content: flex-end;
+}
+.becomeaMemberButton{
+    display:flex;
+}
+.becomeaMemberButton button{
+    background: linear-gradient(180deg, rgba(126,126,162,1) 0%, rgba(48,48,93,1) 65%, rgba(30,30,80,1) 96%);
+    color: #fff;
+    font-size:10px;
+    padding:9px;
+}
+.lastlinesignSection{
+    margin-top:50px;
+    margin-bottom:10px;
+}
+
+.lastlinesign{
+    display:flex;
+    width:90%;
+    border-bottom: solid 2px rgb(226, 226, 226);
+}
+/*SIGN FORMS CSS */
+.signTable{
+    display:flex;
+    justify-content: center;
+    margin-top:20px;
+}
+.signTableContainer{
+    display:flex;
+    flex-direction: row;
+    width:80%;
+}
+.signTableContainerLeft{
+    display:flex;
+    flex-direction: column;
+    flex:1;
+}
+.signTableBox{
+    display:flex;
+    flex:1;
+    flex-direction: row;
+}
+.signTableTextname{
+    display:flex;
+    width: 50%;
+    padding: 0 0 3px 6px;
+}
+.signTableTextnamespan{
+    display:flex;
+    width:100%;
+    font-size:0.8rem;
+}
+.signTableTextnameinput{
+    display:flex;   
+    width:50%;
+}
+.signTableTextnameinput input{
+    display: flex;
+    width: 100%;
+    font-style: italic;
+    font-size:0.8rem;
+    height:25px;
+    margin:5px;
+    padding-left:3px;
+    font-weight: bold;
+}
+.signTableTextnameadd{
+    padding: 0 0 3px 6px;
+}
+.signTableTextnamespanadd{
+    display:flex;
+    width:100%;
+    font-size:0.8rem; 
+}
+.signTableTextnameAddInput{
+    display:flex;   
+    width:100%;
+}
+.signTableTextnameAddInput input{
+    display: flex;
+    width: 100%;
+    font-style: italic;
+    font-size:0.8rem;
+    height:25px;
+    margin:5px;
+    padding-left:3px;
+    font-weight: bold;
+}
+.signTableTextnameAddInput select{
+    display:flex;
+    width:49%;
+    font-style: italic;
+    font-size:0.8rem;
+    height:30px;
+    margin:5px;
+    padding-left:3px;
+    font-weight: 540;
+}
+.signTablecheckBoxinput{
+    display:flex;   
+    width:100%;
+    padding-left:5px;
+    padding-top:10px;
+}
+.checkboxcontainer{
+    display: flex;
+    font-size: 0.9rem;
+}
+.signTablecheckBoxinput input{
+    display:flex;
+}
+.signTablecheckBoxinput p{
+    margin:0;
+    font-size:0.9rem;
+    color: #666;
+}
+.signTableContainerRight{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+    background-color: rgb(235, 235, 235);
+    height:115px;
+    margin-left:5px;
+}
+.signTableBoxrRight{
+    display:flex;
+    flex-direction: row;
+    margin-top:10px;
+}
+.signTableBoxRight{
+    display:flex;
+    flex-direction: row;
+    margin-top:10px;
+}
+#passwordconfirm,#passwordinfo{
+    font-size: 0.9rem;
+}
+.finalsignInButtonSection{
+    display:flex;
+    justify-content: center;
+    margin-top:10px;
+}
+.finalsignInButtonContainer{
+    display:flex;
+    width:80%;
+    justify-content: flex-end;
+}
+.lastbuttonSignIn{
+    padding:9px 10px;
+    font-size:0.9rem;
+    color:white;
+    border-style: none;
+    background: linear-gradient(180deg, rgba(126,126,162,1) 0%, rgba(48,48,93,1) 65%, rgba(30,30,80,1) 96%);
+}
+/*lastlineNewsletter*/
+.lastlineNewsletter{
+    display:flex;
+    justify-content: center;
+    margin-top:100px;
+}
+.lastlineNewsletterContainer{
+    display:flex;
+    width:80%;
+    height:90px;
+}
+.imageBoxNewsletter{
+    display:flex;
+    width: 35%;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:rgb(25, 25, 66);
+    color:white;
+}
+#lettericon{
+    width:100%;
+}
+.lastNewsletterText{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.lastNewsletterText div{
+    align-self: center;
+}
+.lastNewsletterText p{
+    margin-top:7px;
+    margin-bottom:7px;
+
+}
+.lastNewsletterTextlast p{
+    font-size:13px;
+}
+/*lastlineNewsletterBox*/
+.lastlineNewsletterBox{
+    display:flex;
+    align-items: center;
+    flex:3;
+    background-color: rgb(235, 235, 235);
+}
+.lastlineNewsletterInput{
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+.lastlineNewsletterInput form{
+    display:flex;
+    font-size:13px;
+    width:60%;
+    margin-right:3px;
+}
+#lastnewsletter{
+    display:flex;
+    width:100%;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    height: 20px;
+}
+.lastlinebuttonM{
+    padding:3px;
+    color: white;
+    border-style:none;
+    background: linear-gradient(to bottom, rgba(36,31,81,0.46) 0%, rgba(36,31,81,1) 100%);
+}
+.lastlinebuttonM:hover{
+     background: linear-gradient(to top, rgba(36,31,81,0.46) 0%, rgba(36,31,81,1) 100%);
+}
+.lastlinebuttonF{
+    padding:3px;
+    color: white;
+    border-style:none;
+    background: linear-gradient(to bottom, rgba(216, 65, 216, 0.46) 0%, rgba(255,127,255,1) 100%);
+}
+.lastlinebuttonF:hover{
+    background: linear-gradient(to top, rgba(216, 65, 216, 0.46) 0%, rgba(255,127,255,1) 100%);
+}
+.socialLastBox{
+    display:flex;
+    flex-direction: column;
+    flex:2;
+    background-color: rgb(235, 235, 235);
+}
+.socializeWithUs{
+    display:flex;
+}
+.socializeWithUs p{
+    margin-top:4px;
+}
+.socialBoxImoticons{
+    display:flex;
+}
+.socialIcons{
+    width:20px;
+}
+.socialImage{
+    width:100%;
+    display:inline-block;
+    margin: auto 0;
+}

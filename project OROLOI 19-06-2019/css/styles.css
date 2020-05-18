@@ -1,0 +1,741 @@
+﻿html,body {
+    margin: 0;
+    padding: 0; 
+   
+}
+body {
+    display:flex;
+    flex-direction: column;
+    
+}
+.topBar{
+    display:flex;
+    justify-content: center;
+    background-color: #ecebeb;
+}
+.topBarMenu{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width:80%;
+}
+/* menu top bar*/
+.topBarMenu ul{
+    display: flex;
+}
+.topBarMenu li{
+    display:flex;
+    flex: 1 1 auto;
+    padding-right: 18px;
+}
+.topBarMenu li:last-child{
+    padding-right:0;
+}
+.topBarMenu a:hover{
+    color:white;
+    -webkit-transition: all .6s ease;
+    background-color: rgb(23, 23, 49);
+}
+.topBarMenu a{
+    display: flex;   
+    align-items: center;
+    text-decoration: none;
+    font-weight: lighter;
+    color:black;
+    font-family: Verdana;
+    font-size:12px;  
+}
+.shopping-bag{
+    display: flex;
+    align-items: center;
+}
+#shopping-bag{
+    width:90%;
+}
+/*
+LOGO SEARCH CONTACT
+*/
+.topBarbelow{
+    display:flex; 
+    justify-content: center; 
+    height:120px;
+}
+.topBarContainer{
+    display:flex; 
+    width:80%;
+}
+.logoContainer{
+    display:flex; 
+    align-items:center;  
+    flex:1;
+}
+.oroloilogo{
+    width:90%;
+}
+.searchBox{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex:1;
+}
+.searchBox:after{
+    content:"\f002";
+    font-size:20px;
+    font-family:"Font Awesome 5 Free";
+    font-weight: 900;
+    background-color:#ecebeb; 
+    transform: scaleX(-1);
+    padding: 5px 7px;
+    border-radius:1px;
+    color:#d4d4d4;
+    cursor:pointer;
+}
+.searchBox  form{
+    display: flex; 
+}
+#search{   
+    width:250px;
+    height:27px;
+    border: solid 1px rgb(235, 235, 235);
+    border-radius:1px;
+    padding-left:15px;
+    font-weight: lighter;
+    color:grey;
+    font-size:14px;
+}
+/*third box*/
+.contactBox{
+    display: flex;
+    flex:1;
+    flex-direction: column;  
+    justify-content:center;
+    align-items:flex-end;  
+    padding-right:2px;
+}
+.store-contact,.store-contacttwo{
+    display: flex;   
+}
+.store-contact{
+    padding-right:6px;
+}
+.store-icon{
+    margin-right:9px;
+}
+#iconText,#icon-textTwo{
+    display: flex; 
+    flex-flow: column wrap;  
+}
+#iconText{
+    margin-bottom:12px;     
+}
+.order-text{
+    font-size:13px;
+    text-align: center;
+    font-weight: lighter;
+    color:#666;
+}
+.details{
+    font-size:12px;
+    text-align: center;
+    font-weight: lighter;
+    color:#666;
+}
+.phone-number{
+    text-align: center;
+    font-size:19px;
+    font-weight: lighter;
+    color:#666;
+}
+.headerRow{
+    display: flex;  
+    justify-content: center; 
+}
+.headerrowContainer{
+    display: flex; 
+    width:80%;
+    border-top: solid 3px #b1b1b1;
+}
+.bannerContainer{
+    display:flex;
+    justify-content: center;    
+}
+.bannerBox{
+    display:flex;
+    padding: 20px;
+    width:80%;
+}
+.elixabanner{
+    width:100%;
+}
+/*Twotables*/
+.twotables{
+    display: flex;
+    justify-content: center;
+    height:400px;
+}
+.tables{
+    display: flex;
+    width:80%;
+    justify-content: center;
+    justify-content: space-between;
+}
+.tableContainer{
+    display: flex;
+    justify-content: center;
+    width:48.5%;
+    background-color:#ebebeb;
+}
+.table-header{
+    display:flex;
+    width:75%;
+    flex-wrap: wrap;
+}
+.headerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width:100%;
+    height:20px;
+    padding-top:15px; 
+}
+.headerContainer span{
+    margin-left:10px;
+}
+.tableForms{
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+.tableformscontainer{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
+/*tableforms*/
+.gendersBox{
+    display:flex;
+    justify-content: center;  
+}
+.genderContainer{
+    display:flex;
+    width:100%;
+}
+.genderBoxes:first-child{
+    margin-right:2px;
+}
+.genderBoxes:last-child{
+    margin-left:2px;
+}
+.genderBoxes{
+    display:flex; 
+    align-items:center;
+    background-color: rgb(255, 255, 255);
+    height:30px; 
+    width:100%;
+}
+.questiongender{
+    display:flex;
+    width:100%;
+    align-self: center;
+}
+.moneyContainer,.kindContainer,.mechanismContainer,.watchBandContainer,.brandContainer,.sizeContainer{
+    display:flex;   
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height:30px; 
+    margin-top:5px;
+}
+.gendericon img{  
+    display:flex;
+    height:30px; 
+    width:29px;   
+}
+.questiongender input{  
+    display:none;
+}
+.radiochoicegender{
+    
+    padding-left:5px;
+}
+/*second table row*/
+.moneyicon img{
+    display:flex;
+    height:30px;
+    width:29px;  
+}
+.moneyrange{
+    display:flex; 
+    width:100%;
+}
+.rangetext p{
+    font-size:13px;
+    margin:2px 0  0 5px;   
+}
+.moneyrange input{
+    margin-left:10px;
+}
+#range{
+    width:80%;
+}
+/*third table row*/
+.kindicon img{
+    display:flex;
+    height:30px;
+    width:29px;  
+}
+.kindform,.mechanismForm,.watchBandForm,.brandForm,.sizeForm{
+    display: flex;
+    width:100%;
+    padding:5px;
+    border:white;
+    font-size:13px;
+}
+option{
+    font-size:13px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/*fourth-fifth-sixth-seventh table img*/
+.mechanismIcon img{
+    display:flex;
+    height:30px;
+    width:29px;  
+}
+.watchBandIcon img{
+    display:flex;
+    height:30px;
+    width:29px; 
+}
+.brandIcon img{
+    display:flex;
+    height:30px;
+    width:29px; 
+}
+.sizeIcon img{
+    display:flex;
+    height:30px;
+    width:29px; 
+}
+/*BUTTON SEARCH*/
+.searchButtonContainer{
+    display:flex;
+    justify-content: center;
+}
+#table-search{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:60px;
+    background-color: rgb(206, 206, 206);
+}
+#table-search-button{
+    display:flex;
+    justify-content: center;
+    width:400px;
+    height:35px;
+    background: linear-gradient(180deg, rgba(126,126,162,1) 0%, rgba(48,48,93,1) 65%, rgba(30,30,80,1) 96%);
+    color:#fff;
+}
+/*Second Table searchBox*/
+.tableFormsTwo{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom:3px;
+    width: 100%;   
+}
+.tableSearchContainer{
+    display:flex;
+    justify-content: center;
+    width:97%;
+    padding:0;
+    margin-bottom: -10px;
+}
+.tableSearchContainer form{
+    display:flex;
+    width:100%;
+}
+ #searchTableForm{
+    display:flex;
+    width:100%;
+    font-size:14px;
+    height:23px;
+    border: #fff solid 2px;
+    margin-bottom:10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left:5px;
+}
+.tableSearchContainer:after{
+    content:"\f002";
+    font-size:20px;
+    font-family:"Font Awesome 5 Free";
+    font-weight: 900;
+    background-color:#dbdada; 
+    transform: scaleX(-1);
+    padding: 3px 7px;
+    border-radius:1px;
+    color:#cccccc;
+    cursor:pointer;
+    height: 23px;
+}
+/*form Brands */
+.formBrands{
+    display:flex;  
+    justify-content: center;
+    width:100%; 
+    margin-bottom:10px;
+}
+#brandsAlphabet{
+    display:flex;
+    width:100%;
+    background-color: rgb(235, 235, 235);
+    border:  rgb(235, 235, 235);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#brandsAlphabet optgroup{
+    background-color: rgb(23, 23, 63);
+    color:#fff;
+    font-weight: lighter;
+}
+#brandsAlphabet optgroup option{
+    background-color: rgb(235, 235, 235); !important;
+    color:black !important;
+}
+.theBoxOfAlphabet{
+    flex:1;
+}
+.theBoxOfAlphabet{
+    display:flex;
+}
+/*FOUR PICS WITH B&W HOOVER*/
+.fourpics,.topbrands,.bannerMoto,.featuredproducts{
+    display:flex;
+    justify-content: center;
+}
+.fourpicsContainer{
+    display:flex;
+    padding-top:20px;
+}
+.fourpicturesBoxes{
+    display:flex;   
+}
+
+.fpics{
+    width:100%; 
+    -webkit-transition: all .6s ease;
+    -webkit-filter: grayscale(0%); 
+     filter: grayscale(0%); 
+}
+.fpics:hover{
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%); 
+}
+/*topbrandslogo*/
+.topbrandsContainer{
+    display:flex;
+    flex-direction: column;
+    width:80%;
+    margin-top:30px;
+}
+.top-brands-lineone{
+    margin-left:10px;
+}
+.top-brands-lineone h4{
+    margin:0;
+    display:inline-block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left:10px;
+}
+.brandslogos{
+    width:100%;
+}
+/*>Βρείτε σήμερα στο <strong> OROLOI.gr</strong> πάνω από <strong>20.000 ρολόγια</strong> και <strong>200 μάρκες.*/
+.bannerMotoContainer{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(235, 235, 235);   
+    width:80%;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.heightline{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(235, 235, 235);
+}
+.heightline h3{
+    padding-top: 5px;
+    font-size:20px;
+    color:rgb(11, 18, 77);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+/*FEAUTERDPRODUCTS*/ 
+.feautedproductsContainer{
+    display:flex;
+    flex-direction:column;
+    width:80%;
+    background-color: rgb(235, 235, 235);
+}
+.featuredproductsHeader{
+    display:flex;
+    width:100%;
+}
+.featuredproductsBox{
+    margin-bottom:10px;
+}
+.featuredproductsHeader h4{
+    display:inline-block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left:10px;
+}
+.featuredproductsphotosbox img{
+    width:100%;
+}
+.featuredproductsphotosbox a{
+    width:100%;
+}
+.featuredproductsphotos{
+    display:flex;
+    flex:1;
+}
+.featuredproductsphotosbox{
+    display:flex;
+    width:100%;
+}
+.featuredproductsphotosText{
+	display:flex;
+}
+.featuredproductContainer{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex:1;
+}
+.featuredmenproductslink{
+    display:flex;
+    width:100%;
+}
+.featuredproductContainer div{
+    display:flex;
+    margin:5px 5px 5px 5px;
+    width:100%;
+}
+.featuredmenproducts{
+    color: rgb(109, 108, 108);
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a.featuredmenproductslink{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    height: 30px;
+    margin-left: 0;
+    padding-top: 0px;
+    color: rgb(109, 108, 108);
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.feautedproductsContainer a:hover{
+   background-color:rgb(214, 214, 214);
+   color:#fff;
+   -webkit-transition: ease .0.7s;
+}
+/*NEWSLETTER*/
+.newsletterRow,.rewards{
+    display:flex;
+    justify-content: center;
+}
+.newsletterContainer{
+    display:flex;
+    width:80%;
+    margin-top:20px;
+}
+.newsletterBox{
+    display:flex;
+    flex:1;
+    width:48.5%;
+    background-color: rgb(235, 235, 235);
+    padding-bottom:20px;
+}
+.newsletterBoxtwo{
+    display:flex;
+    width:48.5%;
+}
+.newsletterHeaderBox{
+    display:flex;
+    width:100%;
+    margin-left:10px;
+    padding-top:10px;
+}
+.newsletterBox{
+    flex-direction: column;
+}
+.newsletterBox h4{
+    display:inline-block;
+    margin: 0 0 0 5px;
+}
+.newsletterform{
+    display:flex;
+    width:100%;
+    margin-top:20px;
+    margin-left:10px;
+}
+a.newsletterHeader{
+    display:flex;
+    align-items:flex-start;
+    padding-top:5px;
+}
+.newsletterform form{
+    display:flex;
+    width:100%;
+    height:30px;
+    padding-bottom:10px;
+}
+#newsletter{
+    display:flex;
+    flex:1;
+    width:100%;
+    font-size: 14px;
+    height: 23px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 5px;
+    border-width: 2px;
+}
+.genderbutton{
+    display:flex;
+}
+#buttonformen,#buttonforwomen{
+    display:flex;
+    padding-top:4px;
+    padding-bottom: 2px;
+}
+#buttonformen{
+    margin-left:5px;
+    margin-right:5px;
+    color: white;
+    background: linear-gradient(to bottom, rgba(36,31,81,0.46) 0%, rgba(36,31,81,1) 100%);
+    font-weight: lighter;
+}
+#buttonforwomen{
+    margin-right:70px;
+    color: white;
+    background: linear-gradient(to bottom, rgba(216, 65, 216, 0.46) 0%, rgba(255,127,255,1) 100%);
+}
+.rewards{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+}
+.rewards img{
+    display:flex;
+    flex:1;
+    width:100%;
+    height: 80px;
+}
+/*DELIVERY SECTION*/
+.deliverySection{
+    display:flex;
+    justify-content: center;
+}
+.deliveryContainer{
+    display:flex;
+    direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:65%;
+    margin-top:30px;
+}
+.deliveryMoto{
+    width:100%;
+    text-align: center;
+}
+.chooseUs{
+    border-bottom:solid 1px #2f0000;
+    text-align: center;
+}
+.deliveryMoto span{
+    position: relative;
+    top:11px;
+    padding:10px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #2f0000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.deliveryIconBox{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    width:100%;
+}
+.dot{
+    display: flex;
+    background-color: rgb(235, 235, 235);
+    border-radius:50%;
+    padding:15px;
+}
+.dot img{
+    display: flex;
+    width:100%;
+}
+.deliveryInformation{
+    display: flex;
+    width:100%;
+    justify-content: space-evenly;
+}
+.freedelivery{
+    display: flex;
+    width:100%;
+    text-align: center;
+    flex:1;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.freedelivery h3{
+    font-size:16px;
+    font-weight: lighter;
+}
+.freedelivery p{
+    margin:0;
+    font-weight: lighter;
+}
+.textline{
+    padding-left:2px;
+}
+.deliverytext{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    flex-wrap: wrap;
+    font-size:14px;
+    font-weight: lighter;
+    padding-bottom:15px;
+}
+.deliverytexttwo{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    flex-wrap: wrap;
+    font-size:14px;
+    font-weight: lighter;
+}
+.infodelivery{
+    padding:10px;
+    font-size:12px;
+}

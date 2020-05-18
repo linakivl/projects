@@ -1,0 +1,516 @@
+
+hr{
+    width: 735px;
+    margin:35px 0;
+
+}
+.hrInfo{
+    width: 100%;
+    margin:0 0;
+}
+h1{
+    font-size: 32px;
+    color:red;
+    font-weight: bold;
+}
+h2{
+    font-size: 22px;
+    padding: 10px;
+    margin: 0;
+   
+
+}
+.smartphones{
+    margin-left: 11px;
+}
+.filter{
+    background-color: #e6e6e6;
+}
+.removeall{
+    float:right;
+    margin: -25px 0px 0px 0px;
+    padding: 0 10px 0 0 ;
+    font-size: 14px;
+    color: #666;
+
+}
+.remove{
+    float:right;
+    padding: 0 10px 0 0 ;
+    font-size: 14px;
+    margin: 8px 0;
+    color: #666;
+
+}
+.more1{
+    float:right;
+    padding: 0 10px 0 0 ;
+    font-size: 14px;
+    margin-top:10px;
+    color: #666;
+}
+.content p{
+    font-size: 15px;
+    color:#666;
+    padding: 2px;
+    margin:0;
+ 
+}
+.content{
+    padding-bottom: 20px;
+    border-bottom:1px solid #e6e6e6;
+}
+
+.sidabar{
+    background-color: rgba(219, 219, 219, 0.185);
+
+}
+.slidebar {
+    background-image: url("http://www.tpni.com/wp-content/uploads/sites/33/2015/10/Gradient-Background-grey.jpg");
+    background-size: cover;
+    width: 740px;
+
+    
+}
+.slide img{
+    width: 735px;
+}
+.slidebar p{
+    margin:0;
+    padding:3px;
+    font-size:15px;
+
+}
+.slide{
+    margin-bottom:30px;
+}
+#find_product1{
+    border-right: solid 1px;
+}
+#find_product3{
+    text-align: right;
+}
+#btnola{
+   
+    border:solid 1px;
+    border-radius: 3px;
+    background-color: #f9da65;
+    padding:1px 11px;
+    margin-left:6px;
+}
+li p{
+    padding: 0px 0px 0px 49px;
+}
+li input[type='checkbox'], .compare {
+    display: inline-block;
+    text-align: center;
+    margin: 0px -41px 0 50px;
+    padding: 0px 0 0 0px;
+}
+.product_photo{
+    width: 28%;
+
+}
+.product_data,.product_data{
+    width: 36%;
+
+}
+.checked,.star {
+    color: orange;
+    padding:0 !important;
+    margin:0 !important;
+    
+  }
+  .title{
+      padding-top:20px;
+  }
+  .title h4{
+    font-size: 16px !important;   
+  }
+.title h4, .title span{
+    font-size: 13px;
+    margin:0;
+    padding:0  3px 0 3px;
+}
+.title a{
+    color: rgb(173, 3, 3);
+    text-decoration: none;
+}
+.spec{
+    font-size: 15px;
+    list-style-type: circle;
+    padding:30px 0 0 20px ;
+} 
+.spec li{
+    color:rgb(88, 88, 88);
+    padding:2px 0 ;
+}
+.more1 a{
+    padding: 30px 0 0 10px ;
+    font-size: 14px;
+    margin-top:10px;
+    color: black;
+    display:inline-block;
+}
+.sent{
+    height: 117px;
+    width: 100%;
+    background-color: #e5e5e5;
+    margin: 13px 0 0 50px;
+    position:relative;
+
+}
+.sent1{
+    height: 117px;
+    width: 100%;
+    background-color: #e5e5e5;
+    margin: 13px 0 0 0;
+    position:relative;
+
+}
+.product_data p{
+    font-size: 20px;
+    line-height: 25px;
+    color: #333;
+    padding: 17px 50px 10px;
+    margin: 0px;
+}
+
+.fa-truck,.fa-store-alt{
+    font-size: 20px;
+    color: #333;
+    padding:10px 5px;
+    display: inline-block;
+
+
+}
+.delivery span{
+    font-size: 10px;
+    line-height: 11px;
+    padding:0;
+    margin:0;
+}
+.delivery #left1 {
+    font-size: 10px;
+    line-height: 11px;
+    padding:0;
+    margin:0;
+    display: inline-block;
+    position: absolute;
+    top: 23px;
+    left: 49px;
+
+}
+.delivery p{
+    display: inline-block;
+ 
+}
+.delivery #left2 {
+    font-size: 10px;
+    line-height: 11px;
+    padding:0;
+    margin:0;
+    display: inline-block;
+    position: absolute;
+    top: 33px;
+    left: 49px;
+}
+.delivery_right{
+    padding-top: 14px;
+    float: right;
+}
+.delivery_right span{
+    font-size: 15px;
+    color:green;
+    font-weight: bold;
+}
+.fa-check-circle{
+    color:green;
+    font-size: 13px;
+}
+.fa-info-circle{
+    color:grey;
+    font-size: 13px; 
+}
+.delivery #left3 {
+    font-size: 10px;
+    line-height: 11px;
+    padding:0;
+    margin:0;
+    display: inline-block;
+    position: absolute;
+    top: 75px;
+    left: 51px;
+
+}
+.delivery p{
+    display: inline-block;
+ 
+}
+.delivery #left4 {
+    font-size: 10px;
+    line-height: 11px;
+    padding:0;
+    margin:0;
+    display: inline-block;
+    position: absolute;
+    top: 85px;
+    left: 50px;
+}
+
+.buy{
+    height: 29px;
+    width: 100%;
+    background-color: yellow;
+    margin: 0px 0 0 50px;
+    text-align: center;
+
+}
+.buy1{
+    height: 29px;
+    width: 100%;
+    background-color: yellow;
+    margin: 0px 0 0 0px;
+    text-align: center;
+
+}
+
+.samsungColor li img{
+    width:29%;
+    display:inline-block;
+    float: left;
+    border:2px solid #b1adad;
+    padding:6px;
+    margin:5px;
+    box-sizing: border-box;
+    
+}
+.order{
+    background-color: #f2f2f2;
+    padding:15px;
+    margin-top:5px;
+}
+
+.samsungColor span{
+    margin: 0px 5px;
+
+    font-size:12px;
+}
+.otherColor{
+    width: 100%;
+    padding: 5px 0;
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
+    margin:0;
+}
+.messenger {
+
+    background: #d3e6f0;
+    margin: 0px;
+    padding: 10px;
+    font-size: 12px;
+    line-height: normal;
+    box-shadow: 1px 1px 0px rgba(0,0,0,0.3);
+}
+.dataSamsung{
+    margin-top:40px;
+}
+
+.specSamsung{
+    margin-top:0px;
+}
+.specSamsung li{
+    list-style: none;
+    position: relative;
+
+}
+.specSamsung li::before{
+    content: " ";
+    display: block;
+    background: #F00;
+    vertical-align: middle;
+    margin: 0px;
+    padding: 0px;
+    height: 5px;
+    width: 5px;
+    border-radius: 100%;
+    position: absolute;
+    left: -12px;
+    top: 7px;
+}
+.upPhoto img{
+    margin-bottom: 50px;
+}
+.title1 h1{
+    margin:0;
+    padding:3px 0;
+    color:black;
+}
+.title1{
+    margin-bottom: 45px;
+}
+.title1 span{
+   font-size:14px;
+}
+.priceBoxspan{
+    font-size:18px !important;
+    font-weight: bold!important;
+    color:black !important;
+}
+.priceBox{
+    text-align: right;
+}
+.dataSamsung{
+    padding-right: 30px;
+}
+.priceBoxP{
+font-weight: bold;
+font-style: normal;
+color:grey;
+}
+.priceBox i{
+    font-size:18px;
+}
+#samsungPrice{
+    font-size:30px;
+    margin-bottom: 20px;
+
+}
+
+.priceBox select{
+    color: #666;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    height: 30px;
+    border: 1px solid #CCC;
+    width: 130px;
+    border-radius: 2px;
+}
+.delivery_left{
+    color:black;
+}
+.asd{
+    position: sticky;
+    top: 0;
+}
+.infoMore, {
+    width: 98%;
+
+}
+.infoMore h2{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 5px 0px
+}
+.infoMore p{
+    margin: 10px 0 40px 0;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 20px;
+}
+.samsungGalaxy h2{
+    color: #be0007;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 35px;
+    border-bottom: #be0007 solid 2px;
+   
+}
+.redline span{
+    
+    position: relative;
+    top: 18px;
+    background-color: white;
+    padding-right:10px;
+    
+}
+.samsungGalaxy iframe{
+    margin-bottom: 10px;
+
+}
+.samsungGalaxy h3{
+    color: #333;
+    font-size:17px;
+    line-height: 30px;
+    font-weight: bold;  
+    margin-bottom: 4px;
+
+}
+.samsungGalaxy p {
+    margin-bottom: 27px;
+}
+tr,td,table{
+  
+}
+table{
+    width: 98%;
+    margin-top:50px;
+
+}
+td{
+    width: 50%;
+    padding:10px 10px; 
+    font-size: 14px;
+}
+th{
+    width: 50%;
+
+    font-size:30px;
+    font-weight: bold;
+    text-align:left;
+    padding:100px 0 20px 0 ;
+    
+
+}
+.lineColor{
+    background: #bbbbbb;
+
+}
+.lineBorder{
+    border-top:solid 1px;
+
+}
+.footer_list li{
+    line-height: 14px;
+    padding: 3px 0px;
+
+}
+.box_katastimata a{
+    display: inline-block;
+    padding:10px 0;
+}
+.search_box {
+    padding: 6px 0 6px 10px;
+    float: right;
+    position: relative;
+    text-align: right;
+}
+.buy1{
+	padding:6px 145px 6px 10px;
+	margin:0;
+	color:rgb(51, 50, 50);
+	font-weight: bold;
+	border:solid 2px rgba(255, 195, 106, 0.801);
+	background-color:rgba(255, 172, 49, 0.801);
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+    .buy{
+        padding:6px 145px 6px 10px;
+
+        color:rgb(51, 50, 50);
+        font-weight: bold;
+        border:solid 2px rgba(255, 195, 106, 0.801);
+        background-color:rgba(255, 172, 49, 0.801);
+        box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }  
+footer{
+    margin-top:50px;
+    display:block;
+}
+.footer_list{
+    width: 13% !important;
+}

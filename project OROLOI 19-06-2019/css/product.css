@@ -1,0 +1,481 @@
+.productWatchSection{
+    display:flex;
+    justify-content: center;
+}
+.productWatchContainer{
+    display:flex;
+    width:80%;
+    margin-top:2%;
+}
+/*LEFT*/
+.productBoxLeft{
+    display:flex;
+    flex:1;
+}
+.productSidesImage{
+    width:10%;
+}
+.productSidesImage img{
+    width:100%;
+}
+.productSidesBox{
+    border:solid 1px rgb(235, 235, 235);
+    margin: 10px 0 8px 0;
+    padding: 4px;
+}
+.productSidesBox:hover{
+    border:solid 1px;
+}
+.productSidesBox:first-child{
+    margin-top:0;
+    padding: 4px;
+}
+.productSidesBox:last-child{
+    margin-bottom:0;
+    padding: 4px;
+}
+.bigProductBox{
+    width:100%;
+}
+.bigProductImage{
+    width:80%;
+    margin-left: 20px;
+    overflow: hidden; 
+}
+.bigProductImage img{
+    width:100%;
+}
+/*Right*/
+.productBoxRight{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+}
+.samsungSection{
+    display:flex;
+    width: 100%;
+    border-bottom: solid rgb(235, 235, 235) 1px;
+    padding-bottom:10px;
+}
+.samsungHeader h2{
+    margin-top:2%;
+    font-size:1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.samsungHeader{
+    width:100%;
+}
+.logoSamsungContainer{
+    display: flex;
+    justify-content: flex-end;
+    width:50%;
+    align-items: center;
+}
+.logoSamsungBox{
+    width: 60%;
+}
+.logoSamsungBox img{
+    width:100%;
+}
+.samsungSection p{
+    padding:8px 0 7px 0;
+    font-size:0.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*BIG PRICE*/
+.ourprice{
+    display: flex;
+    width:40%;
+}
+.ourprice p{
+    font-size:1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bigPrice{
+    font-size:2.3rem;
+    font-weight: bold;
+}
+.addtocart{
+    width:60%;
+}
+.addtocartButton{
+    padding: 9px 0px;
+    margin-left:2%;
+    background-color: #242051;
+    box-shadow: 0px 0px 5px #000000;    
+    color: #fff;
+}
+.addtocartButton p{
+    text-align: center;
+    font-size:1.2rem;
+}
+.addtocartText{
+    margin-left:10%;
+    text-align:center;
+    padding-top:6px;
+    color:#666; 
+}
+.addtocartText span{
+    font-size:1.1rem;
+}
+/**/
+.checkboxIconContainer{
+    display:flex;
+    margin-top:6%;
+    width:100%;
+    padding-left: 10px;
+}
+.checkboxIconBox{
+    width:8%;
+}
+.checkboxIconBox img{
+    width:100%;
+}
+.checkboxIconText{
+    align-self: center;
+    margin-left:10px;
+}
+.checkboxIconText span{
+    font-size:1.2rem;
+}
+.trackOrders{
+    display: flex;
+    padding: 10px;
+    border-bottom: solid rgb(235, 235, 235) 1px;
+}
+.trackImageContainer{
+    display: flex;
+    width: 100%;
+}
+.trackboxIconText{
+    font-size:0.9rem;
+    align-self: center;
+    margin-left:12px;
+    color:#666; 
+}
+.cashboxIconText{
+    font-size:0.9rem;
+    align-self: flex-start;
+    margin-left:12px;
+    color:#666;
+}
+.miniWatchBox{
+    width:9%;
+    padding-left:5px;
+}
+.miniWatchBox img{
+    width:100%;
+}
+.checkboxIconBox{
+    align-self: center;
+}
+/*XARAKTIRISTIKA KAI PLHROFORIES*/
+.watchinformationSection{
+    display:flex;
+    justify-content: center;
+}
+.watchInfoContainer{
+    display:flex;
+    width:80%;
+    margin-top:15px;
+    justify-content: space-between;
+}
+.characteristics{
+    width: 48%;
+}
+.charBox{
+    display:flex;
+    flex-direction: column;
+}
+.headofCharacteristicts{
+    width:100%;
+    background-color: rgb(235, 235, 235);
+    padding: 20px 0 20px 0; 
+}
+.headofCharacteristicts span{
+    font-size:1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(99, 99, 99);
+    font-weight:550;
+    padding-left:7px;
+}
+.charsdetails{
+    display:flex;
+    flex:1;
+    border-bottom: solid  rgb(235, 235, 235) 1px;
+    border-left: solid rgb(235, 235, 235) 1px;
+    border-right: solid rgb(235, 235, 235) 1px;
+    align-items: center;
+}
+.charsNames{
+    display:flex;
+    width:20%;
+}
+.charstext{
+    display:flex;
+    width:80%;
+}
+.charsp{
+    padding:3px;
+    font-size:0.8rem;
+    color:#666;
+    font-weight:550;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.charstext p{
+    padding-top:4px;
+    padding-left:15px;
+    font-size: 0.8rem;
+    color:#666;
+}
+.charsmegatext{
+    width:80%;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.charsmegatext p{
+    margin:0;
+    font-size: 0.8rem;
+    color:#666;
+    padding-left:15px;
+}
+.infoDeliveryBox{
+    width: 50%;
+}
+.infoDeliveryContainers{
+    display: flex;
+    padding: 10px;
+    border-left: solid 1px rgb(235, 235, 235);
+    border-bottom: solid 1px rgb(235, 235, 235);
+    border-right: solid 1px rgb(235, 235, 235);
+}
+.stampIcon{
+    width:10%;
+}
+.stampIcon img{
+    width:100%;
+}
+.caseBox{
+    display:flex;
+    border-left: solid 1px rgb(235, 235, 235);
+    border-bottom: solid 1px rgb(235, 235, 235);
+    border-right: solid 1px rgb(235, 235, 235);
+}
+.caseContainer{
+    display:flex;
+    width:100%;
+    height:300px;
+    justify-content: center;
+    align-items: center;
+}
+.caseImage{
+    width:70%;
+}
+.caseImage img{
+    width:100%;
+}
+/*miniImages*/
+.miniImagesSection{
+    display:flex;
+    justify-content: center;
+}
+.miniImagesContainer{
+    display:flex;
+    width:100%;
+    margin-top:10px;
+}
+.miniImagesBox{
+    width:45%;
+}
+.miniHeaderBox span{
+    border-bottom: solid 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7rem;
+}
+.miniImages{
+    display:flex;
+    width:100%;
+    flex-wrap: wrap;
+    margin-top:10px;
+}
+.firstMiniImage{
+    width:20%;
+    border:solid 1px;
+    padding:5px 5px;
+    cursor: pointer;
+    border: solid 2px rgb(235, 235, 235);
+}
+.firstMiniImage img{
+    width:100%;
+}
+/* Mini Social Icon*/
+.miniSocialmediaBox{
+    display:flex;
+    height:80px;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+.minisocial{
+    width:25%;
+    padding:1px;
+}
+.minisocial img{
+    width:100%;
+}
+/*dipla apo tis mini eikones*/
+.miniImagesText{
+   display:flex;
+   flex-direction: column;
+   width:55%;
+   margin-left:10px;
+   justify-content: space-evenly;
+}
+.seeOtherLinks{
+    display:flex;
+    margin-left:2px;
+    border: rgb(235, 235, 235) solid 1px;
+}
+.seeOtherLinks:hover{
+    border: rgb(0, 0, 0) solid 1px;
+    -webkit-transition: all 0.7s ease 0s;
+}
+.seeotherHeader{
+   flex:1;
+   margin-left:10px
+}
+.seeotherHeader img{
+    width:6%;
+}
+.seeOtherLinks a{
+    padding-top:20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    width:100%;
+}
+/*EVALUATION*/
+.evaluationSection{
+    display:flex;
+    margin-top:10px;
+}
+.evaluationHeader{
+    flex:1;
+    background-color: rgb(235, 235, 235);
+}
+.evaluationHeader p{
+    padding-left:9px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #666;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.evaluationContainer{
+    display:flex;
+    width: 100%;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    border-left: 1px solid rgb(235, 235, 235);
+    border-right: 1px solid rgb(235, 235, 235);
+}
+.evaluationBox{
+    width:90%;
+    margin-bottom:10px;
+}
+.evaluationBox p{
+    padding-left:5px;
+}
+.evaluationQuestion{
+    font-size:0.8rem;
+    color: #666;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.starsbox{
+    display:flex;
+    align-items: center;
+}
+.starsText{
+    width:25%;
+    padding-left:5px;
+}
+.starContainer{
+    display:flex;
+    width:25%;
+    margin-left:10px;
+    padding-left:10px;
+    padding-right:10px; 
+}
+.starsIcon{
+    
+}
+.starsIcon img{
+    width:100%;
+}
+.evaluationdata{
+    display:flex;
+}
+.evaluationdata input{
+    width:100%;
+    padding:3px;
+}
+.reviewbox{
+    display:flex;
+    margin-top:10px;
+}
+#reviews{
+    width:100%;
+    height:50px;
+}
+.subBox{
+    display:flex;
+    justify-content: flex-end;
+    margin-top:10px;
+}
+.subButton{
+    padding: 9px 10px;
+    font-size:0.9rem;
+    border-style: none;
+    color:white;
+    background: linear-gradient(180deg, rgba(126,126,162,1) 0%, rgba(48,48,93,1) 65%, rgba(30,30,80,1) 96%);
+}
+/*LAST VIEWS*/
+.lastviews{
+    display:flex;
+    justify-content: center;
+    margin-top:2%;
+}
+.lastViewsContainer{
+    display:flex;
+    width:80%;
+    flex-direction:column;
+    margin-bottom:40px;
+}
+.lastViewsBox{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(255,245,252,1) 0%, rgba(246,246,246,1) 0%, rgba(255,255,255,1) 12%, rgba(255,255,255,1) 96%);
+}
+.lastViewsHeader{
+    margin-bottom:20px;
+}
+.lastViewsHeader h3{
+    display:inline-block;
+    padding-left:10px;
+}
+.lastViewsImages{
+    display:flex;
+    width:80%;
+}
+.lastViewsImages ul{
+    display:flex;
+    width:100%;
+}
+.lastViewsBox li{
+    width:20%;
+    overflow: hidden;
+}
+.lastViewsImages img:hover{
+    transform: scale(1.5);
+}
+.lastViewsImages img{
+    width:100%;
+    transition: transform .5s ease;
+}

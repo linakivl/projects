@@ -1,0 +1,137 @@
+.mapsSection{
+    display:flex;
+    justify-content: center;
+    margin-top:5%;
+}
+.mapsContainer{
+    display:flex;
+    width: 80%;
+    justify-content: center;
+}
+.mapBox{
+    display:flex;
+    
+}
+.map{
+    display:flex;
+}
+iframe{
+    display:flex;
+    width:100%;
+}
+.thefrontstore{
+    display:flex;
+}
+.mapBoxList{
+    display:flex;
+    background-color: rgb(238, 238, 238);
+}
+.mapList{
+    display:flex;
+    flex-direction:column;
+}
+.mapList div{
+    display:flex;
+}
+.mapBoxList div p{
+    display:flex;
+}
+.mapBoxList p{
+    margin:0 10px 0 20px;
+    font-weight: lighter;
+}
+.mapBoxList div:last-child{
+    margin-top:10px;
+    margin-bottom:20px;
+}
+.mapBoxList h3{
+    font-weight: lighter;
+    margin-left:20px;
+    margin-top:0;
+}
+.thefrontstorepic{
+    width:100%;
+}
+
+
+/*FOOTER*/
+.footerSection{
+    display:flex;
+    justify-content:center;
+    background-color: rgb(238, 238, 238);
+    width:100%;
+    margin-top:10%;
+    border-top:solid rgb(28, 28, 88) 8.7px;
+}
+.footeralltogether{
+    display:flex;
+    width: 80%;
+    flex-direction: column;
+}
+.footerContainerphoto{
+   display: flex;
+   width:100%;
+}
+.footerContainerphoto img{
+    position: relative;
+    bottom:109px;
+    width: 100%;
+}
+.footerContainer{
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+.footerColumn{
+    display: flex;  
+    width:100%;
+    background-color: rgb(238, 238, 238);
+    padding-bottom:50px;
+    padding-left:20px;
+    padding-right:20px;
+    justify-content: space-between;
+}
+.footerUl{
+    display:flex;
+}
+.footerUl ul{
+    list-style:none
+}
+.footerUl li {
+    font-size:12px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footerUl h3{
+    color:rgb(13, 15, 41);
+}
+/*footerImages*/
+.footerImages{
+    display:flex;
+    justify-content: center; 
+    background-color: rgb(238, 238, 238);
+    width:100%;
+}
+.footerImage{
+    display:flex;
+    justify-content: center;
+}
+#paymentsphotoalign{
+    width:100%;
+}
+/*COPYRIGHT*/
+.copyright{
+    display:flex;
+    justify-content: flex-start;
+    width:100%;
+    background-color: rgb(238, 238, 238);
+}
+.copyrightText{
+    display:flex;
+    padding-left:50px;
+}
+.copyright p{
+    font-size:10px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
