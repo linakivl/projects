@@ -3,3 +3,4 @@
 To project kotsovolos που είναι και το πιο παλιό έχει δημιουργηθεί σε συνεργασία με συμφοιτητή μου.
 
 To 2 projects (color picker, search movies) έχουν δημιουργηθεί με βοήθεια απο online courses udemy.
+
