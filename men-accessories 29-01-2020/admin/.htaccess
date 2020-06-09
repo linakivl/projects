@@ -1,5 +1,0 @@
-RewriteEngine on 
-
-RewriteRule  ^INDEX index.php [NC,L]
-
-RewriteRule  ^LOGIN index.php [NC,L]
