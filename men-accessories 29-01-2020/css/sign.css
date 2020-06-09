@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -32,8 +33,46 @@ body{
         flex-basis: 30%;
     }
 }
+@media screen and (max-width: 901px){
+    .form-acount-wraper{
+        top: 25%;
+        width: 100%;
+    }
+    .searcharea{
+        top: 7rem;
+        right: .9rem;    
+    }
+}
+@media screen and (min-width: 902px){
+    .form-acount-wraper{
+        left: 25%;
+        top: 25%;
+        width: 50%;
+    }
+    .searcharea{
+        top: 7rem;
+        right: .9rem;    
+    }
+}
 
+.form-acount-wraper{
+    display:flex;
+    position: relative;
+    align-items: center;
+    overflow: hidden;
+    opacity : 1;
+}
+.email-box.error input{
+    border-color:  #e74c3c;
+}
+.email-box.success input{
+    border-color: #2ecc71;
+}
+.small-wrong{
+    font-size: 1.2rem;
+    color:  #e74c3c;
 
+}
 .form-acount{
     display: none;
     width: 100%;
@@ -44,21 +83,13 @@ body{
     left: 0;
     overflow-y: hidden;
 }
-.form-acount-wraper{
-    display:flex;
-    position: relative;
-    left: 25%;
-    top: 25%;
-    width: 50%;
-    align-items: center;
-    overflow: hidden;
-    opacity : 1;
-}
+
 .form-acount-row{
     display:flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    border: solid 1px black;
 }
 .col-form-acount{
     display: flex;
@@ -72,9 +103,7 @@ body{
     justify-content: center;
     margin-bottom: 1.5rem;
 }
-.col-form-acount-buttons-line{
-    width: 7%;
-}
+
 .col-form-acount-buttons-box{
     text-decoration: none;
     color: rgb(119, 119, 119);
@@ -82,6 +111,7 @@ body{
 }
 .col-form-acount input{
     display:block;
+    font-size: 2rem;
 }
 .input-text{
     width: 100%;
@@ -89,6 +119,14 @@ body{
     padding-bottom: 2rem;
     border:none;
     border-bottom: 1px solid #ccc;
+}
+.col-form-signIn{
+    align-self: center;
+    text-decoration: none;
+    margin-top: 1.5rem;
+    border-bottom: solid 1px rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+    font-size:1.2rem
 }
 input[type="submit"]{
     color: #fff;
@@ -127,3 +165,189 @@ input[type="checkbox"]{
     margin: 0;
     padding: 0;
 }
+/****************REGISTER STYLE*******************/
+.container-register{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+}
+.container-register-row{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 12rem;
+    width: 100%;
+    border-top: solid 1px #87867d;
+    
+}
+.container-register-box{
+    border: solid 1px #14171C;
+    width:400px;
+    margin-top: 5rem;
+    background : rgb(0, 0, 0);
+    box-shadow:0px 4px 16px 4px #87867d78;
+    border-radius: .4rem;
+}
+.container-register-box > p{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+.success-message{
+    color: rgb(142, 167, 0);
+}
+.acount-message{
+    color: #e74c3c;
+}
+.container-register-box > h2{
+    text-align: center;
+    color: #87867d;
+    font-size: 3.2rem;
+    font-weight: lighter;
+}
+.container-register-box-fields{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.container-register-box-fields > form {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px 1px 0 1px #87867d !important;
+}
+
+
+.container-register-box-fields > form > div > input {
+    color: #a09747cc;
+    background :rgb(0, 0, 0);
+    border: none;
+    padding: 2.2rem 0 1rem .5rem;
+    font-size: 2rem;
+    width:100%;
+    border-bottom: solid 1px #87867d !important;
+}
+.container-register-box-fields > form > div >input:focus{
+    outline: none !important;
+    border:1px solid #000;
+  
+}
+::placeholder{
+    color: #87867d;
+    font-size: 1.4rem;
+}
+#newslettercheck{
+    position: absolute;
+    left: 35rem;
+    bottom: 4.4rem;
+}
+#signUpSubmit{
+    background-color: #e6d6a5ad;
+    color: #000000fa;
+    border-radius: .4rem;
+    margin-top: .5rem;
+    margin-bottom: .1rem;
+    padding: 1.2rem;
+}
+#signUpSubmit:hover{
+    background-color: #8b805dad;
+    color: #e6d6a5ad;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #a09747cc !important; 
+}
+
+#search {
+    width: 100%;
+    padding: 3px;
+    border: solid 1px lightgrey;
+    border-radius: 10px;
+    outline: none;
+    background-color: black;
+    color: #fff;
+}
+#search.open {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#results {
+    display: none;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    list-style: none;
+    max-width: 400px;
+    border: solid 1px lightgrey;
+    border-top: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+#results.open {
+    display: flex;
+}
+#results li {
+    display: flex;
+    align-items: center;
+    background: #fff;
+}
+#results li:hover{
+    background: rgb(0, 0, 0);
+    color: #fff;
+}
+
+#results li img {
+    height: 50px;
+}
+#results li .title {
+    flex-grow: 1;
+    padding-left: 20px;
+}
+#results li .title b {
+    color: red;
+}
+.searcharea{
+    position:fixed;
+    z-index: 2;
+  
+}
+.searcharea a{
+    text-decoration: none;
+    color: #000;
+}
+/* #birthdayTime{
+    padding-top: 1rem;
+    color: #87867d;
+    padding-left: .3rem;
+    font-size: 1.4rem;
+    background :rgb(0, 0, 0);
+} */
+/* #registerLastNameBox{
+    position: relative;
+} */
+/* #registerLastNameBox::after {
+    content: "*";
+    color: #740224ad;
+    position: absolute;
+    top: 11px;
+    left: 5.5rem;
+    font-size: 1.4rem;
+}
+#registerNameLast::after{
+    content: "*";
+    color: #e6d6a5ad;
+    position: absolute;
+    top: 57px;
+    left: 6rem;
+    font-size: 1.4rem;
+} */

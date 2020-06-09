@@ -12,7 +12,7 @@
 }
 @media screen and (min-width: 1024px){
     .newsletter-row-box{
-        width: calc(100% - 20rem); 
+        width: calc(100% - 40rem); 
     }
     .newsletter-row-box-header h2{
         font-size: 2.5rem;
@@ -21,6 +21,7 @@
         font-size: .9rem;
     }
 }
+
 
 .newsletter-section{
     display:flex;
@@ -36,7 +37,7 @@
 .newsletter-row{
     display:flex;
     justify-content: center;
-    width: calc(100% - 10rem);
+    width: 100%;
 }
 .newsletter-row-box{
     display:flex;  
@@ -62,10 +63,11 @@
     margin-top: 4.5rem;
     width: 100%;  
 }
+
 #newsletter-sign{
     display:flex;
     width:100%;
-    flex-wrap: row wrap;
+    flex-wrap: wrap;
 }
 #newsletterEmail{
     flex-grow: 3;
@@ -75,20 +77,29 @@
     padding-bottom: 0.7rem;
 }
 #newsletter-button{
-    flex-grow: 1;
-    flex-basis: 10%;
-    margin-left: .5rem;
-    color: #000;
+    margin-top: 1.2rem;
+    color:rgb(255, 255, 255);
     font-size: 2rem;
-    padding-bottom: 0.2rem;
     text-decoration: none;
-    border-bottom: 1px solid black;
+    padding: 1rem;
+    background-color: rgb(0, 0, 0);
     font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    box-shadow: 1px 2px 2px -1px rgba(85, 85, 85, 0.856);
+    border-radius: .2rem;
+    border: none;
+    
+}
+#newsletter-button:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    border: 1px black solid;
 }
 #newsletter-check{
     padding-top:1rem;
     align-self:center;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 #newsletter-check a{
     text-decoration: none;

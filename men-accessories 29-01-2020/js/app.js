@@ -29,3 +29,14 @@
      });
 
    */
+/*Scroll and change the nav background*/
+
+
+  window.onscroll = () => {
+    const nav = document.querySelector('#header-container');
+    if(this.scrollY <= 70) 
+        nav.className = 'header-container'; 
+    else 
+        nav.className = 'header-container scroll';
+      
+  }

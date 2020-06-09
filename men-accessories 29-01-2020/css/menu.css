@@ -1,8 +1,26 @@
-
+@media screen and (max-width: 699px){
+    #myNav{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 700px){
+    #myNav{
+        width: 40%;
+    }
+}
+/* @media screen and (max-width: 1019px){
+    #myNav{
+        width: 40%;
+    }
+}
+@media screen and (min-width: 1020px){
+    #myNav{
+        width: 30%;
+    }
+} */
 .header-container-col-nav{
     display:flex;
     align-items: center;
-    width:33%;
 }
 .header-container-col-nav nav{
     margin-left: .8rem;
@@ -42,29 +60,31 @@
     top:.5rem;
     left:0;
     border: solid 1px rgb(226, 226, 226);
-    height: 15rem;
+    height: 20rem;
     width: 70%;
     display: none;
+    background-color: #000;
 }
 .dropdownmenu a{
     display:block;
     line-height: 2.9rem;
+
     color: rgb(226, 226, 226);
-    padding-left: .5rem;
-    font-size: 1.9rem;
+    padding-left: 1.5rem;
+    padding-top: 1.2rem;
 }
+
 .dropdownmenu a:hover{
-    color: rgb(168, 168, 168);
+    color: rgb(250, 14, 14);
 }
 
 /*hide menu*/
 
   #myNav {
-    display: none;
+    display:none;
     height: 100%;
-    width: 30%;
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     top: 0;
     left: 0;
     background-color: rgb(253, 253, 253);
@@ -83,9 +103,9 @@
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: #d6cc7a;
     display: block;
-   
+
   }
   
   .overlay a:hover{
@@ -108,7 +128,7 @@
    }
    .fa-facebook, .fa-instagram, .fa-twitter{
     font-size: 2rem;
-    color: rgb(97, 97, 97);
+    color: #b3ac6ead;
    }
    .fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover{
     color: #000000;
