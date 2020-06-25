@@ -1,3 +1,4 @@
+<!-- php print_r($_SESSION['cart']);  -->
 <div class="container-products">
     <div class="container-products-row">
         <?php while($row = fetch_assoc($products)) :?>
@@ -8,7 +9,8 @@
                     <h3><?= $row['product_name']?></h3>
                     <p><?= $row['product_price']?>.00&euro;</p>
                     </a>
-                    <a id="add-cart-product" href="product.php?id=<?= $row['product_id']?>"> Προσθήκη στο καλάθι </a>
+                    <a id="add-cart-product" name="add-cart" href="cart-page.php?id=<?= $row['product_id']?>"> Προσθήκη στο καλάθι </a>
+                   
                 </div>
             </div>
         <?php endwhile; ?>

@@ -3,7 +3,9 @@
 
     require_once('resourses/config.php');
     require_once(FRONT_INCLUDES . DS . 'header.php'); 
-   
+ 
+    // $uri = $_SERVER['REQUEST_URI'];
+    // redirectFunction($uri);
    
     if(!isset($_GET['product'])){
         header("Location: products.php");

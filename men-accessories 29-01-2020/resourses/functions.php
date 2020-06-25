@@ -188,6 +188,21 @@ EOT;
             } 
 
     }
+    function cartDisplay($id){
+        global $connection;
+        $sql = "SELECT `product_id`, `product_name`, `product_price` FROM products WHERE `product_id`= $id";
+        $result = query($sql);
+        if(mysqli_num_rows($result) == 1){
+            return $result;
+            mysqli_close($connection);
+
+        }
+        return false;
+    }
+    function redirectFunction($uri){
+        $case = strrpos($uri, '/', -1)+1;
+        $_SESSION['url'] = substr($uri, $case);
+    }
 
     function logout(){
             $_SESSION = array(); 

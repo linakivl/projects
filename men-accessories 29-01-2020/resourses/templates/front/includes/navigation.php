@@ -105,7 +105,7 @@
                 <a href="index.php"><img src="img/andrews-ties-logo.png" alt="logo"></a>
             </div>
         </div>
-       
+<!--***********************************NAV BAR ICONS*******************************************-->
         <div class="header-container-col header-container-icons">
        
             <div>            
@@ -123,7 +123,11 @@
 
             
                 <a href="" class="btnLog"><i class="far fa-heart header-container-icons-buy"></i></a>
-                <a href="" class="btnLog">  <i class="fas fa-shopping-bag header-container-icons-buy"></i></a>
+                <a href="cart-page.php" class="btnLog"><i class="fas fa-shopping-bag header-container-icons-buy">
+                    <?php
+                        echo isset($_SESSION['cart']) ? "(". count($_SESSION['cart']) . ")" : "(" . 0 .")";
+                    ?>
+                </i></a>
                 </ul>
             </div>
         

@@ -1,5 +1,5 @@
 <?php 
-
+  
   require_once('resourses/config.php');
   include_once(FRONT_INCLUDES . DS . 'header.php'); 
   
@@ -11,6 +11,8 @@
       }else{
         header('Location: index.php');
       }
+      $uri = $_SERVER['REQUEST_URI'];
+      redirectFunction($uri);
 ?>  
 <!--******************Πίσω απο το fixed nav bar********************-->
     <div class="fixed-top-bar"></div>
